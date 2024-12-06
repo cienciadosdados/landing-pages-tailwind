@@ -2,7 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
+@layer components {
+  .btn {
+    @apply tw-px-4 tw-py-2 tw-rounded-lg tw-transition-all tw-duration-300;
+  }
+
+  .header-links {
+    @apply tw-relative tw-flex tw-items-center tw-min-w-fit tw-px-4 tw-py-2 tw-z-[2] tw-cursor-pointer tw-transition-all tw-duration-300;
+  }
+
+  .hero-section {
+    @apply tw-relative tw-mt-20 tw-flex tw-min-h-screen tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden;
+  }
+
+  .hero-bg-gradient {
+    @apply tw-relative tw-flex tw-h-full tw-min-h-screen tw-w-full tw-flex-col tw-place-content-center tw-gap-6 tw-p-[5%];
+  }
+
+  .purple-bg-grad {
+    @apply tw-absolute tw-blur-[50px] tw-opacity-50;
+  }
+
+  .animated-border {
+    @apply tw-relative tw-overflow-visible;
+  }
+
+  .footer-link {
+    @apply tw-w-fit tw-transition-colors tw-duration-300;
+  }
+
+  .faq-accordion {
+    @apply tw-w-full tw-cursor-pointer tw-border-none tw-bg-inherit tw-p-4 tw-text-left tw-outline-none tw-transition-all tw-duration-300;
+  }
 }
 
   
